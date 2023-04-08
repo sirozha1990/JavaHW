@@ -1,33 +1,6 @@
-package HW;
+package task;
 
-import Task.task;
-
-public class main {
-    public static void main(String[] args) {
-        task task = new task();
-        Task.task.main();
-    }
-}
-
-
-
-package HW;
-//Реализуйте структуру телефонной книги с помощью HashMap,
-// учитывая, что 1 человек может иметь несколько телефонов и у человека уникальное имя.
-
-import task.PhoneBook;
-
-public class main {
-    public static void main(String[] args) {
-        PhoneBook PhoneBook = new PhoneBook();
-        task.PhoneBook.main();
-
-    }
-}
-
-
-
-public class PhoneBook {
+import java.util.*;public class PhoneBook {
 
     private Map<String, List<String>> phoneBook;
 
