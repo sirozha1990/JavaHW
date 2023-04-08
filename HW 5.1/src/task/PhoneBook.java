@@ -1,8 +1,6 @@
 package task;
 
-import java.util.*;
-
-public class PhoneBook {
+import java.util.*;public class PhoneBook {
 
     private Map<String, List<String>> phoneBook;
 
